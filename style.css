@@ -1,5 +1,5 @@
 /* -------All Font--------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@600;700&display=swap');
 
 /* --------------------
     Common Style 
@@ -77,18 +77,37 @@ header{
 /* ---------------
     Section 3 
     ----------------------*/
-.collection{
+.collection-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+}
+    .collection{
     width: 330px;
     height: 475px;
-    box-shadow:5px 10px 80px gray;
+    box-shadow:0px 0px 40px gray;
+    border-radius: 10px;
 }
 .image{
     padding: 15px;
 }
-
-.info p, fas fa-star{
-    font-size: 14px;
+.info{
+    padding:0 15px 15px 15px;
+    
+}
+.info h2{
+    margin-top: 0;
+    margin-bottom: 6px;
 }
 .info .dollar{
-    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.info p, fas fa-star{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.star{
+    color:orange;
 }
