@@ -1,0 +1,94 @@
+/* -------All Font--------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins:wght@600;700&display=swap');
+
+/* --------------------
+    Common Style 
+    -----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -----------------
+    Header area 
+    ---------------------*/
+header{
+    margin-left: 100px;
+    margin-top: 87px;
+}
+/* ---------------
+    Section 1 
+    --------------------*/
+
+.section-1{
+    display: flex;
+    margin: 50px 100px;
+    justify-content:space-between
+}
+.text-area{
+    width: 50%;
+}
+    .text-area h1{
+    font-size: 52px;
+}
+.first-button{
+    background-color: #E02C6D;
+    width: 196px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    color: #ffffff;
+}
+.first-button a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right:8px ;
+}
+.top-image{
+    width: 475px;
+    height: 475px;
+}
+.first-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ;
+}
+.top-image:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ;
+}
+/* ------------------
+    Section 2 
+    -----------------------*/
+.section-2{
+    margin: 100px 100px 50px 100px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.logo-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.section-3{
+    margin:0px 100px;
+
+}
+.section-3-header{
+    text-align: center;
+}
+/* ---------------
+    Section 3 
+    ----------------------*/
+.collection{
+    width: 330px;
+    height: 475px;
+    box-shadow:5px 10px 80px gray;
+}
+.image{
+    padding: 15px;
+}
+
+.info p, fas fa-star{
+    font-size: 14px;
+}
+.info .dollar{
+    
+}
