@@ -178,9 +178,6 @@ ul li a{
     footer fab{
         font-size: 500px;
     }
-    /* .fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
-        margin:10px;
-    } */
     .footer-link a{
         display: inline-block;
         font-size: 25px;
@@ -195,40 +192,16 @@ ul li a{
     header ul li{
         display: none;
     }
+    main{
+        width:100%;
+    }
     .section-1{
-        margin:0;
         flex-direction: column;
-        align-items: center; 
     }
     .text-area{
-        margin-bottom: 20px;
-        order:2;
-        width:90%;
-        padding-left:2000 px;
+        width: 100%;
     }
-    .top-image{
-        order:1
-    }
-    .section-2{
-        margin: 100px 5% 50px 5%;
-    }
-    .logo-area{
-        flex-wrap: wrap;
-    }
-    .logo-area img{
-        margin: 50px;
-    }
-    .collection-area{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .collection{
-        transform: scale(1.2);
-        margin: 35px;
-
-    }
-
+   
  }
         
        
