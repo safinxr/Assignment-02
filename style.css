@@ -190,7 +190,7 @@ ul li a{
  }
  @media only screen and (max-width:688px ){
     header{
-        margin:10px;
+        margin:20px;
     }
     header ul li{
         display: none;
@@ -216,19 +216,17 @@ ul li a{
         flex-wrap: wrap;
     }
     .logo-area img{
-        margin-right: 90px;
-        margin-bottom: 50px;
-    }
-    .section-3{
-        margin: 100px 5%;
-
-
+        margin: 50px;
     }
     .collection-area{
-        grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .collection{
+        transform: scale(1.2);
+        margin: 35px;
+
     }
 
  }
