@@ -7,6 +7,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+p{
+    text-align: justify;
+}
 /* -----------------
     Header area 
     ---------------------*/
@@ -43,11 +46,6 @@ header{
     background-color:  #E02C6D;
     text-decoration: none;
 }
-/* .first-button a{
-    text-decoration: none;
-    color: #ffffff;
-    margin-right:8px ;
-} */
 .top-image{
     width: 475px;
     height: 475px;
@@ -118,3 +116,31 @@ header{
 .star{
     color:orange;
 }
+.last-button{
+    color: #E02C6D;
+    text-align: right;
+    margin-top: 50px;
+}
+.last-button a{
+    text-decoration: none;
+    color:#E02C6D;
+    margin-right: 10px;
+}
+/* ---------------
+    section 
+    --------------------4 */
+.influencer{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 0 40px gray;
+    display: flex;
+    margin-top: 50px;
+}
+.influencer-info{
+    padding: 20px;
+}
+.ranking{
+    color: #E02C6D;
+    margin-bottom: 0;
+}
+
