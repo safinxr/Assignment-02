@@ -37,11 +37,17 @@ header{
     border-radius: 30px;
     color: #ffffff;
 }
-.first-button a{
+.button{
+    border: none;
+    color: white;
+    background-color:  #E02C6D;
+    text-decoration: none;
+}
+/* .first-button a{
     text-decoration: none;
     color: #ffffff;
     margin-right:8px ;
-}
+} */
 .top-image{
     width: 475px;
     height: 475px;
